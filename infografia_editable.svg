@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    id="infografia"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="1400"
+    height="460"
+    viewBox="0 0 1400 460"
+    preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .title { font: bold 20px Arial, Helvetica, sans-serif; fill: #0f6ea8; }
+      .section-title { font: bold 16px Arial, Helvetica, sans-serif; fill: #0b588a; }
+      .box-text { font: 14px Arial, Helvetica, sans-serif; fill: #222; }
+      .bullet { font: 14px Arial, Helvetica, sans-serif; fill: #222; }
+      .left-label { font: bold 20px Arial, Helvetica, sans-serif; fill: #0f6ea8; }
+      .small-muted { font: 12px Arial, Helvetica, sans-serif; fill: #555; }
+      .outline { stroke: #bcd7e6; stroke-width: 4; fill: #f0f7fa; }
+      .outline-yellow { stroke: #f1b24a; stroke-width: 4; fill: #faf4e6; }
+      .outline-green { stroke: #33a37a; stroke-width: 4; fill: #eef9f4; }
+      .shadow { filter: url(#softShadow); }
+    ]]></style>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1400" height="460" fill="#ffffff"/>
+
+  <!-- Left vertical labels with arrows -->
+  <g id="left_labels">
+    <g transform="translate(20,40)">
+      <text class="left-label" x="0" y="0">Resultados de</text>
+      <text class="left-label" x="0" y="26">Aprendizaje</text>
+      <!-- Arrow -->
+      <polygon points="150,8 190,8 170,25" fill="#0f6ea8" />
+      <rect x="150" y="0" width="40" height="30" fill="#0f6ea8" opacity="0.0"/>
+    </g>
+
+    <g transform="translate(20,170)">
+      <text class="left-label" x="0" y="0">Saberes y</text>
+      <text class="left-label" x="0" y="26">contenidos</text>
+      <polygon points="150,8 190,8 170,25" fill="#0f6ea8" transform="translate(0,20)"/>
+    </g>
+
+    <g transform="translate(20,300)">
+      <text class="left-label" x="0" y="0">Criterios de</text>
+      <text class="left-label" x="0" y="26">evaluación</text>
+      <polygon points="150,8 190,8 170,25" fill="#0f6ea8" transform="translate(0,20)"/>
+    </g>
+  </g>
+
+  <!-- Top row: RA1, RA2, RA3 -->
+  <g id="top_row" transform="translate(200,20)">
+    <!-- RA1 -->
+    <g id="ra1" transform="translate(0,0)">
+      <rect class="outline shadow" x="0" y="0" rx="8" ry="8" width="360" height="90"/>
+      <text class="section-title" x="18" y="28">RA1 – FORMULÓ</text>
+      <line x1="18" y1="34" x2="340" y2="34" stroke="#9ec6de" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">Pregunta de investigación clara, pertinente y original,</tspan>
+        <tspan x="18" dy="18">alineada con necesidades reales del campo.</tspan>
+      </text>
+    </g>
+
+    <!-- RA2 -->
+    <g id="ra2" transform="translate(400,0)">
+      <rect class="outline shadow" x="0" y="0" rx="8" ry="8" width="360" height="90"/>
+      <text class="section-title" x="18" y="28">RA2 – ARTICULÓ</text>
+      <line x1="18" y1="34" x2="340" y2="34" stroke="#9ec6de" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">Teorías y conceptos fundamentales, posicionando su</tspan>
+        <tspan x="18" dy="18">investigación en el debate académico con profundidad crítica.</tspan>
+      </text>
+    </g>
+
+    <!-- RA3 -->
+    <g id="ra3" transform="translate(800,0)">
+      <rect class="outline shadow" x="0" y="0" rx="8" ry="8" width="360" height="90"/>
+      <text class="section-title" x="18" y="28">RA3 – CONSTRUYÓ</text>
+      <line x1="18" y1="34" x2="340" y2="34" stroke="#9ec6de" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">Estrategia metodológica coherente, con instrumentos ajustados</tspan>
+        <tspan x="18" dy="18">al problema, contexto, recursos y tiempos.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Middle row: Problema de Investigación, Enfoque Epistemológico, Enfoque Metodológico -->
+  <g id="middle_row" transform="translate(200,130)">
+    <!-- Arrow tops from RA boxes (three arrows pointing down) -->
+    <g id="arrows_top">
+      <polygon points="180,0 200,0 190,18" fill="#3b83b6" transform="translate(0,0)"/>
+      <polygon points="580,0 600,0 590,18" fill="#3b83b6" transform="translate(0,0)"/>
+      <polygon points="980,0 1000,0 990,18" fill="#3b83b6" transform="translate(0,0)"/>
+    </g>
+
+    <!-- Problema de Investigación -->
+    <g id="problema" transform="translate(0,30)">
+      <rect class="outline-yellow shadow" x="0" y="0" rx="6" ry="6" width="360" height="150"/>
+      <text class="section-title" x="18" y="26">Problema de Investigación</text>
+      <line x1="18" y1="32" x2="340" y2="32" stroke="#f1b24a" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">• Planteamiento y formulación</tspan>
+        <tspan x="18" dy="20">• Estado del arte</tspan>
+        <tspan x="18" dy="20">• Justificación</tspan>
+        <tspan x="18" dy="20">• Objetivos General y específicos</tspan>
+      </text>
+    </g>
+
+    <!-- Enfoque Epistemológico -->
+    <g id="epistemologico" transform="translate(400,30)">
+      <rect class="outline-yellow shadow" x="0" y="0" rx="6" ry="6" width="360" height="150"/>
+      <text class="section-title" x="18" y="26">Enfoque Epistemológico</text>
+      <line x1="18" y1="32" x2="340" y2="32" stroke="#f1b24a" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">• Marco conceptual y teórico</tspan>
+        <tspan x="18" dy="20">• Experiencias referentes</tspan>
+        <tspan x="18" dy="20">• Marco contextual</tspan>
+        <tspan x="18" dy="20">• Marco legal</tspan>
+      </text>
+    </g>
+
+    <!-- Enfoque Metodológico -->
+    <g id="metodologico" transform="translate(800,30)">
+      <rect class="outline-yellow shadow" x="0" y="0" rx="6" ry="6" width="360" height="150"/>
+      <text class="section-title" x="18" y="26">Enfoque Metodológico</text>
+      <line x1="18" y1="32" x2="340" y2="32" stroke="#f1b24a" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">• Tipo de investigación</tspan>
+        <tspan x="18" dy="20">• Instrumentos de consulta</tspan>
+        <tspan x="18" dy="20">• Instrumentos de análisis</tspan>
+        <tspan x="18" dy="20">• Representación e interpretación de resultados</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom row: CE1 CE2 CE3 (evaluation criteria) -->
+  <g id="bottom_row" transform="translate(200,320)">
+    <!-- arrows from middle to bottom -->
+    <g id="arrows_middle">
+      <polygon points="180,0 200,0 190,18" fill="#3b83b6" transform="translate(0,0)"/>
+      <polygon points="580,0 600,0 590,18" fill="#3b83b6" transform="translate(0,0)"/>
+      <polygon points="980,0 1000,0 990,18" fill="#3b83b6" transform="translate(0,0)"/>
+    </g>
+
+    <!-- CE1 -->
+    <g id="ce1" transform="translate(0,30)">
+      <rect class="outline-green shadow" x="0" y="0" rx="6" ry="6" width="360" height="90"/>
+      <text class="section-title" x="18" y="28">CE1</text>
+      <line x1="18" y1="34" x2="340" y2="34" stroke="#56c2a0" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">Originalidad y viabilidad de la pregunta en contexto</tspan>
+        <tspan x="18" dy="18">disciplinar + coherencia lógica entre componentes.</tspan>
+      </text>
+    </g>
+
+    <!-- CE2 -->
+    <g id="ce2" transform="translate(400,30)">
+      <rect class="outline-green shadow" x="0" y="0" rx="6" ry="6" width="360" height="90"/>
+      <text class="section-title" x="18" y="28">CE2</text>
+      <line x1="18" y1="34" x2="340" y2="34" stroke="#56c2a0" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">Articulación lógica y crítica de teorías y conceptos</tspan>
+        <tspan x="18" dy="18">que fundamentan el problema.</tspan>
+      </text>
+    </g>
+
+    <!-- CE3 -->
+    <g id="ce3" transform="translate(800,30)">
+      <rect class="outline-green shadow" x="0" y="0" rx="6" ry="6" width="360" height="90"/>
+      <text class="section-title" x="18" y="28">CE3</text>
+      <line x1="18" y1="34" x2="340" y2="34" stroke="#56c2a0" stroke-width="2"/>
+      <text class="box-text" x="18" y="54">
+        <tspan x="18" dy="0">Justificación coherente de la propuesta metodológica,</tspan>
+        <tspan x="18" dy="18">ajustada a objetivos, recursos y entorno.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Footer small note -->
+  <text class="small-muted" x="20" y="448">Editable SVG: abre en Inkscape o Illustrator para modificar textos, colores o exportar a PPTX/PNG.</text>
+
+</svg>
